@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ExampleCrossPlattForm.Layouts.Page2StackLayoutProject">
+    <ContentPage.Content>
+
+        <StackLayout BackgroundColor="White">
+
+            <Label Text="Tn_PhotoGrapher" />
+            <Image Source="Smoky.jpg" />
+            <StackLayout Spacing="10"
+                         Padding="-13,10,10,0"
+                         Orientation="Horizontal"
+                         HorizontalOptions="Start">
+                <Button Text="LIKE" TextColor="Blue"
+                        BackgroundColor="White" />
+                <Button Text="COMMENT" TextColor="Blue"
+                        BackgroundColor="White" />
+                <Button Text="SHARE" TextColor="Blue"
+                        BackgroundColor="White" />
+
+
+            </StackLayout>
+            <StackLayout Padding="10">
+                <BoxView HeightRequest="1" Color="Gray" />
+                <Label Text="700 Likes" />
+                <Label Text="Mt. Cammerer sunrise showcases an amazing autumn as far as the eye can see. The photographer added, Great Smoky Mountains National Park - Mt. Cammerer, looking north 10 minutes before sunrise." />
+            </StackLayout>
+            
+
+
+
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>

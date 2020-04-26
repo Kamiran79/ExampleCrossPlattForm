@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ExampleCrossPlattForm.Views.LoginPage"
+             BackgroundColor="Chocolate">
+
+    <!-- { CITC-2376-MOBILE APPLICATION DEVELOPMENT } -->
+    <!-- This program in class lab for student: KAMIRAN IBRAHIM -->
+    <!-- STUDENT A# A00417993 -->
+    <!-- SPRING 2020 SEMESTER -->
+    <!-- LoginPage for Styles On ClassRoom -->
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <!--
+            <Style x:Key="button" TargetType="Button">
+                <Setter Property="FontSize" Value="15"></Setter>
+                <Setter Property="BackgroundColor" Value="Blue"></Setter>
+                <Setter Property="CornerRadius" Value="90"></Setter>
+                <Setter Property="HorizontalOptions" Value="CenterAndExpand"></Setter>
+                <Setter Property="VerticalOptions" Value="CenterAndExpand"></Setter>
+                <Setter Property="TextColor" Value="White"></Setter>
+            </Style>
+            
+            This is Explicit style, can be apply through key reference for
+            the specific buttons You can use switch ever is appropriate
+            -->
+
+
+            <Style x:Key="button" TargetType="Button">
+
+
+                <Setter Property="FontSize" Value="15"></Setter>
+                <Setter Property="BackgroundColor" Value="Blue"></Setter>
+                <Setter Property="CornerRadius" Value="90"></Setter>
+                <Setter Property="HorizontalOptions" Value="CenterAndExpand"></Setter>
+                <Setter Property="VerticalOptions" Value="CenterAndExpand"></Setter>
+                <Setter Property="TextColor" Value="White"></Setter>
+             </Style>
+
+
+            <!-- The Above is implicit Style you don't need to mantion key value-->
+            <!--The above will be applicable to all the buttons in this page-->
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+
+        <StackLayout HorizontalOptions="CenterAndExpand"
+                     VerticalOptions="CenterAndExpand"
+                     BackgroundColor="Yellow">
+            <Button x:Name="login" Text="Login" Style="{StaticResource button}" ></Button>
+            <!-- For Explicit Style you need to give Style="{StaticResource button} -->
+            <Button Text="Register" ></Button>
+            <Button Text="Click Me" Clicked="Button_Clicked"></Button>
+            
+        </StackLayout>
+        <!--
+
+        Styles:
+        ...Global (App Level)
+        ...Local  (page Level) ... Always Global style will be override by local style
+        ...COntrol Level       ... Local style override by control level.
+            Implicit
+            Explicit
+                Static Resource
+                Dynamic Resource
+
+        Style Inheritance
+
+        Phone
+
+        -->
+
+    </ContentPage.Content>
+</ContentPage>

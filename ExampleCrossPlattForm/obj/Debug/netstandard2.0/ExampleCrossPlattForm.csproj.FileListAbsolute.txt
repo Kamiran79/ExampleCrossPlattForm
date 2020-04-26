@@ -1,0 +1,39 @@
+/Users/iKamiran/Projects/ExampleCrossPlattForm/ExampleCrossPlattForm/bin/Debug/netstandard2.0/ExampleCrossPlattForm.deps.json
+/Users/iKamiran/Projects/ExampleCrossPlattForm/ExampleCrossPlattForm/bin/Debug/netstandard2.0/ExampleCrossPlattForm.dll
+/Users/iKamiran/Projects/ExampleCrossPlattForm/ExampleCrossPlattForm/bin/Debug/netstandard2.0/ref/ExampleCrossPlattForm.dll
+/Users/iKamiran/Projects/ExampleCrossPlattForm/ExampleCrossPlattForm/bin/Debug/netstandard2.0/ExampleCrossPlattForm.pdb
+/Users/iKamiran/Projects/ExampleCrossPlattForm/ExampleCrossPlattForm/obj/Debug/netstandard2.0/ExampleCrossPlattForm.csprojAssemblyReference.cache
+/Users/iKamiran/Projects/ExampleCrossPlattForm/ExampleCrossPlattForm/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/iKamiran/Projects/ExampleCrossPlattForm/ExampleCrossPlattForm/obj/Debug/netstandard2.0/Layouts /AbsoluteExLayout.xaml.g.cs
+/Users/iKamiran/Projects/ExampleCrossPlattForm/ExampleCrossPlattForm/obj/Debug/netstandard2.0/Layouts /GridEx.xaml.g.cs
+/Users/iKamiran/Projects/ExampleCrossPlattForm/ExampleCrossPlattForm/obj/Debug/netstandard2.0/Layouts /GridLayoutProject.xaml.g.cs
+/Users/iKamiran/Projects/ExampleCrossPlattForm/ExampleCrossPlattForm/obj/Debug/netstandard2.0/Layouts /Page1StackLayoutProject.xaml.g.cs
+/Users/iKamiran/Projects/ExampleCrossPlattForm/ExampleCrossPlattForm/obj/Debug/netstandard2.0/Layouts /Page2StackLayoutProject.xaml.g.cs
+/Users/iKamiran/Projects/ExampleCrossPlattForm/ExampleCrossPlattForm/obj/Debug/netstandard2.0/Layouts /RelativeLayoutExample.xaml.g.cs
+/Users/iKamiran/Projects/ExampleCrossPlattForm/ExampleCrossPlattForm/obj/Debug/netstandard2.0/Layouts /RelativeLayoutProject.xaml.g.cs
+/Users/iKamiran/Projects/ExampleCrossPlattForm/ExampleCrossPlattForm/obj/Debug/netstandard2.0/Layouts /StackEx.xaml.g.cs
+/Users/iKamiran/Projects/ExampleCrossPlattForm/ExampleCrossPlattForm/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/iKamiran/Projects/ExampleCrossPlattForm/ExampleCrossPlattForm/obj/Debug/netstandard2.0/Views/circleimg_ex.xaml.g.cs
+/Users/iKamiran/Projects/ExampleCrossPlattForm/ExampleCrossPlattForm/obj/Debug/netstandard2.0/Views/ControlExample.xaml.g.cs
+/Users/iKamiran/Projects/ExampleCrossPlattForm/ExampleCrossPlattForm/obj/Debug/netstandard2.0/Views/CtrlEx.xaml.g.cs
+/Users/iKamiran/Projects/ExampleCrossPlattForm/ExampleCrossPlattForm/obj/Debug/netstandard2.0/Views/DateandTimePicker.xaml.g.cs
+/Users/iKamiran/Projects/ExampleCrossPlattForm/ExampleCrossPlattForm/obj/Debug/netstandard2.0/Views/ImageDemo.xaml.g.cs
+/Users/iKamiran/Projects/ExampleCrossPlattForm/ExampleCrossPlattForm/obj/Debug/netstandard2.0/Views/ImgDemo.xaml.g.cs
+/Users/iKamiran/Projects/ExampleCrossPlattForm/ExampleCrossPlattForm/obj/Debug/netstandard2.0/Views/Introduction.xaml.g.cs
+/Users/iKamiran/Projects/ExampleCrossPlattForm/ExampleCrossPlattForm/obj/Debug/netstandard2.0/Views/ListViewDemo.xaml.g.cs
+/Users/iKamiran/Projects/ExampleCrossPlattForm/ExampleCrossPlattForm/obj/Debug/netstandard2.0/Views/LoginPage.xaml.g.cs
+/Users/iKamiran/Projects/ExampleCrossPlattForm/ExampleCrossPlattForm/obj/Debug/netstandard2.0/Views/MyPage.xaml.g.cs
+/Users/iKamiran/Projects/ExampleCrossPlattForm/ExampleCrossPlattForm/obj/Debug/netstandard2.0/Views/pickerExample.xaml.g.cs
+/Users/iKamiran/Projects/ExampleCrossPlattForm/ExampleCrossPlattForm/obj/Debug/netstandard2.0/Views/SimpleCalculator.xaml.g.cs
+/Users/iKamiran/Projects/ExampleCrossPlattForm/ExampleCrossPlattForm/obj/Debug/netstandard2.0/Views/SliderEx.xaml.g.cs
+/Users/iKamiran/Projects/ExampleCrossPlattForm/ExampleCrossPlattForm/obj/Debug/netstandard2.0/Views/StackExample.xaml.g.cs
+/Users/iKamiran/Projects/ExampleCrossPlattForm/ExampleCrossPlattForm/obj/Debug/netstandard2.0/ViewsClass/CtrlEx.xaml.g.cs
+/Users/iKamiran/Projects/ExampleCrossPlattForm/ExampleCrossPlattForm/obj/Debug/netstandard2.0/ViewsClass/entryExample.xaml.g.cs
+/Users/iKamiran/Projects/ExampleCrossPlattForm/ExampleCrossPlattForm/obj/Debug/netstandard2.0/ViewsClass/ExampleCalculator.xaml.g.cs
+/Users/iKamiran/Projects/ExampleCrossPlattForm/ExampleCrossPlattForm/obj/Debug/netstandard2.0/ExampleCrossPlattForm.csproj.CoreCompileInputs.cache
+/Users/iKamiran/Projects/ExampleCrossPlattForm/ExampleCrossPlattForm/obj/Debug/netstandard2.0/ExampleCrossPlattForm.AssemblyInfoInputs.cache
+/Users/iKamiran/Projects/ExampleCrossPlattForm/ExampleCrossPlattForm/obj/Debug/netstandard2.0/ExampleCrossPlattForm.AssemblyInfo.cs
+/Users/iKamiran/Projects/ExampleCrossPlattForm/ExampleCrossPlattForm/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/iKamiran/Projects/ExampleCrossPlattForm/ExampleCrossPlattForm/obj/Debug/netstandard2.0/ExampleCrossPlattForm.dll
+/Users/iKamiran/Projects/ExampleCrossPlattForm/ExampleCrossPlattForm/obj/Debug/netstandard2.0/ref/ExampleCrossPlattForm.dll
+/Users/iKamiran/Projects/ExampleCrossPlattForm/ExampleCrossPlattForm/obj/Debug/netstandard2.0/ExampleCrossPlattForm.pdb

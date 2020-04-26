@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="ExampleCrossPlattForm.Views.ImageDemo">
+    <ContentPage.Content>
+        <!--Image source can be from File, URL, Resource, Stream-->
+        <!--source filename sould be all small letters and it must need
+        to drop in drawable folder-->
+        <AbsoluteLayout>
+            <ActivityIndicator IsRunning="{Binding Source={x:Reference img},Path=IsLoading}"
+                               AbsoluteLayout.LayoutBounds="0.5,0.5,100,100"
+                               AbsoluteLayout.LayoutFlags="PositionProportional"
+                               Color="Chocolate">
+
+            </ActivityIndicator>
+
+            <Image
+                x:Name="img"
+                IsVisible="False"
+                   AbsoluteLayout.LayoutBounds="0,0,1,1"
+                   AbsoluteLayout.LayoutFlags="All"
+               Aspect="AspectFit"/>
+
+        </AbsoluteLayout>
+       
+    </ContentPage.Content>
+</ContentPage>

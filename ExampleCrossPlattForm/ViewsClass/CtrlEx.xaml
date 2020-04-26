@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ClassEx2020.Views.CtrlEx"
+             BackgroundColor="Black">
+    
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="Brown">
+            <Label x:Name="lblHello" Text="HellowWorld!!" TextColor="Teal"
+                   BackgroundColor="Aqua" FontAttributes="Italic,Bold"   
+                   FontSize="Large"
+                VerticalOptions="CenterAndExpand" 
+                   TextDecorations="Underline"
+                   LineBreakMode="WordWrap"
+                HorizontalOptions="CenterAndExpand" />
+
+            <Button x:Name="btnClickMe" Text="ClickMe" TextColor="Chocolate" 
+                    BackgroundColor="Aqua" Clicked="BtnClickMe_Clicked"
+                    HorizontalOptions="Center"
+                    VerticalOptions="EndAndExpand"></Button>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

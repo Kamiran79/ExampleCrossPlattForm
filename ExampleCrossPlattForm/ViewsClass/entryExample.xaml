@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ClassEx2020.Views.entryExample">
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry Placeholder="Enter Username" TextColor="Coral"
+                   MaxLength="10">
+            </Entry>
+            <Entry x:Name="entryPassword" Placeholder="Enter password" IsPassword="True"
+                       MaxLength="8" Keyboard="Chat" />
+            <Button Text="Click " Clicked="Button_Clicked" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

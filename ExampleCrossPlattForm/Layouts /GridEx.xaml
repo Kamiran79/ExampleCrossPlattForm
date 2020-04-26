@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ExampleCrossPlattForm.Layouts.GridEx">
+
+    <!-- { CITC-2376-MOBILE APPLICATION DEVELOPMENT } -->
+    <!-- This program by student: KAMIRAN IBRAHIM -->
+    <!-- STUDENT A# A00417993 -->
+    <!-- SPRING 2020 SEMESTER -->
+    <!-- GridEx Layout On ClassRoom -->
+
+
+
+
+    <ContentPage.Content>
+     
+        <Grid BackgroundColor="Pink" RowSpacing="20" ColumnSpacing="10">
+
+            <Grid.RowDefinitions>
+                
+            </Grid.RowDefinitions>
+
+            <Label Grid.Row="0" Grid.Column="0" Text ="Label1" BackgroundColor="Azure" TextColor="Black" />
+
+            <Label Grid.Row="1" Grid.Column="0" Text="Label2" BackgroundColor="Azure" TextColor="Black" />
+
+            <Label Grid.Row="0" Grid.Column="1" Text="Label3" BackgroundColor="Azure" TextColor="Black" />
+
+            <Label Grid.Row="1" Grid.Column="1" Text="Label4" BackgroundColor="Azure" TextColor="Black" />
+
+            <Label Grid.Row="2" Grid.ColumnSpan="3" Text="Label5" BackgroundColor="Azure" TextColor="Black" />
+
+            <Label Grid.RowSpan="3" Grid.Column="2" Text="Label4" BackgroundColor="Azure" TextColor="Black" />
+
+        </Grid>
+
+       
+
+    </ContentPage.Content>
+</ContentPage>

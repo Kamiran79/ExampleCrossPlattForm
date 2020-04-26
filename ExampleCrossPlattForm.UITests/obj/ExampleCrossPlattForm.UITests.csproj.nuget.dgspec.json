@@ -1,0 +1,63 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/iKamiran/Projects/ExampleCrossPlattForm/ExampleCrossPlattForm.UITests/ExampleCrossPlattForm.UITests.csproj": {}
+  },
+  "projects": {
+    "/Users/iKamiran/Projects/ExampleCrossPlattForm/ExampleCrossPlattForm.UITests/ExampleCrossPlattForm.UITests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/iKamiran/Projects/ExampleCrossPlattForm/ExampleCrossPlattForm.UITests/ExampleCrossPlattForm.UITests.csproj",
+        "projectName": "ExampleCrossPlattForm.UITests",
+        "projectPath": "/Users/iKamiran/Projects/ExampleCrossPlattForm/ExampleCrossPlattForm.UITests/ExampleCrossPlattForm.UITests.csproj",
+        "packagesPath": "/Users/iKamiran/.nuget/packages/",
+        "outputPath": "/Users/iKamiran/Projects/ExampleCrossPlattForm/ExampleCrossPlattForm.UITests/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/Users/iKamiran/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net461"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net461": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net461": {
+          "dependencies": {
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            },
+            "Xam.Plugins.Forms.ImageCircle": {
+              "target": "Package",
+              "version": "[3.0.0.5, )"
+            },
+            "Xamarin.UITest": {
+              "target": "Package",
+              "version": "[3.0.3, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

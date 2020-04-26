@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ExampleCrossPlattForm.Layouts.AbsoluteExLayout">
+
+
+    <!-- { CITC-2376-MOBILE APPLICATION DEVELOPMENT } -->
+    <!-- This program by student: KAMIRAN IBRAHIM === I am addin the name to be easy found -->
+    <!-- STUDENT A# A00417993 -->
+    <!-- SPRING 2020 SEMESTER -->
+    <!-- Absolute Layout On ClassRoom -->
+
+
+    <ContentPage.Content>
+    <!-- In this Layout, Controls can overlap -->
+    <!-- Layout Bounds can be used for position & size of element on the Layout -->
+    <!-- x,y,Width,Height were layout bounds by default these values are absolute -->
+    <!-- when given proporational values, layout flags need to mantion all, X proporational -->
+
+
+    <AbsoluteLayout BackgroundColor="Blue">
+        <BoxView Color="Gray"
+                 AbsoluteLayout.LayoutBounds="0,0,1,0.5"
+                 AbsoluteLayout.LayoutFlags="All">
+
+        </BoxView>
+        <BoxView x:Name="minibox" Color="Purple"
+                 AbsoluteLayout.LayoutBounds="0.4,0.2,100,100"
+                 AbsoluteLayout.LayoutFlags="PositionProportional">
+
+        </BoxView>
+        <Button x:Name="btnClick" BackgroundColor="Aqua"
+                Text="Click Me" Clicked="btnClick_Clicked"
+                AbsoluteLayout.LayoutBounds="0,1,1,50"
+                AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional">
+
+        </Button>
+    </AbsoluteLayout>
+    </ContentPage.Content>
+</ContentPage>

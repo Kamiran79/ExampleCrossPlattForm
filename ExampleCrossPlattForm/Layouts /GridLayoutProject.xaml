@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ExampleCrossPlattForm.Layouts.GridLayoutProject">
+
+    <!-- { CITC-2376-MOBILE APPLICATION DEVELOPMENT } -->
+    <!-- This program by student: KAMIRAN IBRAHIM -->
+    <!-- STUDENT A# A00417993 -->
+    <!-- SPRING 2020 SEMESTER -->
+    <!-- Grid Layout Project -->
+
+    <ContentPage.Content>
+        <Grid BackgroundColor="Gray" RowSpacing="10" ColumnSpacing="10" Padding="40">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="2*" />
+
+                
+
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+
+
+            </Grid.ColumnDefinitions>
+            
+            <Entry Grid.Row="0"  Grid.Column="0" Grid.ColumnSpan="3" FontFamily="30" x:Name="phoneNumber" />
+            
+            <!-- Note: I don't have the BorderRadius, but I have the CornerRadius instead -->
+            <Button Grid.Row="1" Grid.Column="0" x:Name="btnNum1" FontSize="30" TextColor="White"
+                    BackgroundColor="Tomato" CornerRadius="30" Clicked="btnNum1_Clicked" Text="1"/>
+
+            <Button Grid.Row="1" Grid.Column="1" x:Name="btnNum2" FontSize="30" TextColor="White"
+                    BackgroundColor="Tomato" CornerRadius="30" Clicked="btnNum2_Clicked"  Text="2"/>
+
+            <Button Grid.Row="1" Grid.Column="2" x:Name="btnNum3" FontSize="30" TextColor="White"
+                    BackgroundColor="Tomato" CornerRadius="30" Clicked="btnNum3_Clicked" Text="3"/>
+
+            <Button Grid.Row="2" Grid.Column="0" x:Name="btnNum4" FontSize="30" TextColor="White"
+                    BackgroundColor="Tomato" CornerRadius="30" Clicked="btnNum4_Clicked" Text="4"/>
+
+            <Button Grid.Row="2" Grid.Column="1" x:Name="btnNum5" FontSize="30" TextColor="White"
+                    BackgroundColor="Tomato" CornerRadius="30" Clicked="btnNum5_Clicked" Text="5"/>
+
+            <Button Grid.Row="2" Grid.Column="2" x:Name="btnNum6" FontSize="30" TextColor="White"
+                    BackgroundColor="Tomato" CornerRadius="30" Clicked="btnNum6_Clicked" Text="6"/>
+
+            <Button Grid.Row="3" Grid.Column="0" x:Name="btnNum7" FontSize="30" TextColor="White"
+                    BackgroundColor="Tomato" CornerRadius="30" Clicked="btnNum7_Clicked" Text="7"/>
+
+            <Button Grid.Row="3" Grid.Column="1" x:Name="btnNum8" FontSize="30" TextColor="White"
+                    BackgroundColor="Tomato" CornerRadius="30" Clicked="btnNum8_Clicked" Text="8"/>
+
+            <Button Grid.Row="3" Grid.Column="2" x:Name="btnNum9" FontSize="30" TextColor="White"
+                    BackgroundColor="Tomato" CornerRadius="30" Clicked="btnNum9_Clicked" Text="9"/>
+
+            <Button Grid.Row="4" Grid.Column="1" x:Name="btnNum0" FontSize="30" TextColor="White"
+                    BackgroundColor="Tomato" CornerRadius="30" Clicked="btnNum0_Clicked" Text="0"/>
+
+            <Button Grid.Row="5" Grid.Column="0" x:Name="btnDail" FontSize="30" TextColor="White"
+                    BackgroundColor="Tomato" CornerRadius="30" Clicked="btnDail_Clicked" Text="Dial"
+                    Grid.ColumnSpan="3" />
+
+            
+
+
+
+
+
+
+        </Grid>
+
+    </ContentPage.Content>
+</ContentPage>

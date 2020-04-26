@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ExampleCrossPlattForm.Views.StackExample">
+
+    <!-- { CITC-2376-MOBILE APPLICATION DEVELOPMENT } -->
+    <!-- This program by student: KAMIRAN IBRAHIM -->
+    <!-- STUDENT A# A00417993 -->
+    <!-- SPRING 2020 SEMESTER -->
+    <!-- StackExample Layout On ClassRoom -->
+
+    <ContentPage.Content>
+        <!-- Padding is spacing between controls and the layout -->
+        <!-- For the padding either give one value or give 4 values -->
+        <!-- The four values order is left,top,right, and bottom -->
+        <!-- Spacing is spacing between controls -->
+        <!-- Stacklayout is used to stack the controls either vartically or horizantally -->
+         
+              <StackLayout BackgroundColor="Red">
+            <StackLayout BackgroundColor="Aqua"
+                         Spacing="30"
+                         VerticalOptions="Center"
+                         Orientation="Horizontal"
+                         Padding="20">
+                <BoxView BackgroundColor="BlueViolet" MinimumHeightRequest="50" MinimumWidthRequest="50"
+                         HorizontalOptions="Center"
+                         VerticalOptions="Center"></BoxView>
+                <StackLayout>
+                    <Label Text="label1"></Label>
+                </StackLayout>
+                
+                <Label Text="label2"></Label>
+                <Label Text="label3"></Label>
+            </StackLayout>
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>

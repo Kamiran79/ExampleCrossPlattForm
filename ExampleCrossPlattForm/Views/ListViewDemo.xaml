@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ExampleCrossPlattForm.Views.ListViewDemo">
+             <!--mc:Ignorable="d"
+             x:Class="ExampleCrossPlattForm.View.ListViewDemo">
+             -->
+
+
+    <ContentPage.Content>
+        <StackLayout>
+            <ListView x:Name="lview" SeparatorColor="Green" HasUnevenRows="True"
+                      ItemSelected="lview_ItemSelected"
+                      ItemTapped="lview_ItemTapped">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <!-- <TextCell Text="{Binding Name}" Detail="{Binding Details}"></TextCell>  -->
+                        <ViewCell>
+                            <StackLayout Orientation="Horizontal" Padding="5">
+                                
+                            </StackLayout>
+
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

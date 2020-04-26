@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.Views.ExampleCalculator"
+             BackgroundColor="Brown">
+    <!-- { CITC-2376-MOBILE APPLICATION DEVELOPMENT } -->
+    <!-- This program by student: KAMIRAN IBRAHIM -->
+    <!-- STUDENT A# A00417993 -->
+    <!-- SPRING 2020 SEMESTER -->
+    <!-- Button Calculator Project -->
+    <ContentPage.Content>
+        <StackLayout Padding="10,10,80,0" Spacing="10" >
+            <Entry x:Name="number1" Placeholder="Enter a number" WidthRequest="10" BackgroundColor="LightGray" VerticalOptions="Center"
+                   MaxLength="8"
+                   HorizontalTextAlignment="Center"/>
+            <Entry x:Name="number2" Placeholder="Enter a number" 
+                   MinimumHeightRequest="3"
+                   BackgroundColor="LightGray"
+                   HorizontalTextAlignment="Center"/>
+            <StackLayout Padding="0,30,0,0">
+                <Button x:Name="btnAdd" Text="Add +" 
+                        BackgroundColor="Red" Clicked="btnAdd_Clicked"
+                        HorizontalOptions="CenterAndExpand"/>
+                <Button x:Name="btnSub" Text="Sub -" 
+                        BackgroundColor="Blue" Clicked="btnSub_Clicked"
+                        HorizontalOptions="CenterAndExpand"/>
+                <Button x:Name="btnMult" Text="Mult *" 
+                        BackgroundColor="Yellow" Clicked="btnMult_Clicked"
+                        HorizontalOptions="CenterAndExpand"/>
+                <Button x:Name="btnDiv" Text="Div /" 
+                        BackgroundColor="Green" Clicked="btnDiv_Clicked"
+                        HorizontalOptions="CenterAndExpand"/>
+            </StackLayout>
+            
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

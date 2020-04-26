@@ -1,0 +1,36 @@
+﻿<Properties StartupConfiguration="{6D94CB6E-BE7E-4C6B-9933-B3A9BCA2E197}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ExampleCrossPlattForm/App.xaml.cs">
+    <Files>
+      <File FileName="ExampleCrossPlattForm/App.xaml.cs" Line="34" Column="50" />
+      <File FileName="ExampleCrossPlattForm/Views/SliderEx.xaml" />
+      <File FileName="ExampleCrossPlattForm/Views/SliderEx.xaml.cs" />
+      <File FileName="ExampleCrossPlattForm/Views/pickerExample.xaml" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ExampleCrossPlattForm" expanded="True">
+            <Node name="ExampleCrossPlattForm" expanded="True">
+              <Node name="Model" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="pickerExample.xaml" expanded="True" />
+                <Node name="SliderEx.xaml" expanded="True" />
+              </Node>
+              <Node name="ViewsClass" expanded="True" />
+              <Node name="App.xaml" expanded="True">
+                <Node name="App.xaml.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.ExampleCrossPlattForm.Android AndroidDesignerPreferredTheme="Theme.AppCompat.Light.NoActionBar" PreferredExecutionTarget="Android.pixel_2_pie_9_0_-_api_28" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

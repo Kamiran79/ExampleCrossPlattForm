@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:sys="clr-namespace:System;assembly=mscorlib"
+             x:Class="ExampleCrossPlattForm.Views.DateandTimePicker"
+             BackgroundColor="Yellow">
+
+    <!-- { CITC-2376-MOBILE APPLICATION DEVELOPMENT } -->
+    <!-- This program in class lab for student: KAMIRAN IBRAHIM -->
+    <!-- STUDENT A# A00417993 -->
+    <!-- SPRING 2020 SEMESTER -->
+    <!-- DateandTimePicker for Date Picker, Time Picker, and Switch On ClassRoom -->
+
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout Orientation="Horizontal">
+            <Label Text="Start Date"></Label>
+            <DatePicker x:Name="startdate" 
+                        Date="{x:Static sys:DateTime.Today}"
+                        HorizontalOptions="CenterAndExpand"
+                        >
+
+            </DatePicker>
+
+                </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="End Date"></Label>
+            <DatePicker x:Name="enddate"
+                        MinimumDate="{Binding Source={x:Reference startdate}, Path=Date}"
+                        DateSelected="enddate_DateSelected"
+                        HorizontalOptions="CenterAndExpand"
+                        />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Include Start and End dates" FontSize="20"
+                       HorizontalOptions="StartAndExpand"></Label>
+                <Switch IsToggled="False"
+                        x:Name="swi"
+                        HorizontalOptions="CenterAndExpand"
+                        Toggled="swi_Toggled"></Switch>
+            </StackLayout>
+            <Label x:Name="resultlbl" Text="Result" FontSize="20" FontAttributes="Bold"></Label>
+
+            <TimePicker Time="13:00:02" ></TimePicker>
+
+        </StackLayout>
+
+
+    </ContentPage.Content>
+</ContentPage>

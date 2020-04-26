@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ExampleCrossPlattForm.Layouts.RelativeLayoutProject">
+
+    <!-- { CITC-2376-MOBILE APPLICATION DEVELOPMENT } -->
+    <!-- This program by student: KAMIRAN IBRAHIM -->
+    <!-- STUDENT A# A00417993 -->
+    <!-- SPRING 2020 SEMESTER -->
+    <!-- Relative Layout On Ptoject === I don't have the Relative Layout Example on Class it could be on the computer at class -->
+
+
+
+
+    <ContentPage.Content>
+
+
+
+
+        <RelativeLayout BackgroundColor="Black">
+
+
+
+            <BoxView WidthRequest="420"
+                     HeightRequest="200"
+                     x:Name="TealView"
+                     RelativeLayout.XConstraint="{ConstraintExpression
+                Type=RelativeToParent,
+                Property=Width,
+                Factor=0.0}"
+                     RelativeLayout.YConstraint="{ConstraintExpression
+                Type=RelativeToParent,
+                Property=Height,
+                Factor=0.0}"
+                     BackgroundColor="Teal">
+
+            </BoxView>
+            
+
+            <StackLayout
+                Spacing="1"
+                RelativeLayout.YConstraint="{ConstraintExpression
+                Type=RelativeToView,
+                 ElementName=TealView,
+                Factor=1,
+                Property=Height,
+                Constant=-170}"
+                   RelativeLayout.XConstraint="{ConstraintExpression
+                Type=RelativeToParent,
+                Factor=0.25,
+                Property=Width}" >
+
+                <Label Text="$11.95"
+                   TextColor="Black"
+                   FontSize="60"
+                   FontAttributes="Bold"
+                  />
+                 
+                <Button Text="Add $7.99 Credit"
+                        FontSize="15"
+                        HeightRequest="38"
+                        CornerRadius="15"
+                        BackgroundColor="Gray"
+                        FontAttributes="Bold"
+                        TextColor="White"
+                        />
+
+
+            </StackLayout>
+
+
+
+            <Label Text="Why pay for credit?"
+                   TextColor="Gray"
+                   FontSize="20"
+                   FontAttributes="Bold"
+                   RelativeLayout.YConstraint="{ConstraintExpression
+                 Type=RelativeToView,
+                 ElementName=TealView,
+                Factor=1,
+                Property=Height,
+                Constant=30}"
+                   RelativeLayout.XConstraint="{ConstraintExpression
+                Type=RelativeToParent,
+                Factor=0.25,
+                Property=Width}"/>
+
+
+
+            <Label Text="Because you can reach people who aren't on"
+                   TextColor="Gray"
+                   FontSize="15"
+                   RelativeLayout.YConstraint="{ConstraintExpression
+                 Type=RelativeToView,
+                 ElementName=TealView,
+                Factor=1,
+                Property=Height,
+                Constant=70}"
+                   RelativeLayout.XConstraint="{ConstraintExpression
+                Type=RelativeToParent,
+                Factor=0.1,
+                Property=Width}"/>
+
+
+            <Label Text="SkyApp by calling mobile and landline"
+                   TextColor="Gray"
+                   FontSize="15"
+                   RelativeLayout.YConstraint="{ConstraintExpression
+                 Type=RelativeToView,
+                 ElementName=TealView,
+                Factor=1,
+                Property=Height,
+                Constant=90}"
+                   RelativeLayout.XConstraint="{ConstraintExpression
+                Type=RelativeToParent,
+                Factor=0.15,
+                Property=Width}"/>
+
+
+            <Label Text="numbers, or spending SMS, at low-cost rates."
+                   TextColor="Gray"
+                   FontSize="15"
+                   RelativeLayout.YConstraint="{ConstraintExpression
+                 Type=RelativeToView,
+                 ElementName=TealView,
+                Factor=1,
+                Property=Height,
+                Constant=110}"
+                   RelativeLayout.XConstraint="{ConstraintExpression
+                Type=RelativeToParent,
+                Factor=0.1,
+                Property=Width}"/>
+
+        </RelativeLayout>
+
+
+    </ContentPage.Content>
+</ContentPage>

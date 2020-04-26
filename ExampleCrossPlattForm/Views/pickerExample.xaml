@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="ExampleCrossPlattForm.Views.pickerExample">
+
+    <!-- { CITC-2376-MOBILE APPLICATION DEVELOPMENT } -->
+    <!-- This program in class lab for student: KAMIRAN IBRAHIM -->
+    <!-- STUDENT A# A00417993 -->
+    <!-- SPRING 2020 SEMESTER -->
+    <!-- pickerExample for Picker On ClassRoom -->
+
+
+    <ContentPage.Content>
+
+        <!--
+        Array
+            Dictionary (key, value) (class)
+            List (Class)
+            IList
+            Ienumerse
+
+        -->
+
+
+        <StackLayout BackgroundColor="LightSeaGreen">
+            <Picker x:Name="fruitpicker"
+                    ItemDisplayBinding="{Binding Name}"
+                    Title="Pick a fruit from the list"
+                    BackgroundColor="BlueViolet"
+                    SelectedIndexChanged="fruitpicker_SelectedIndexChanged">
+                <!--     SelectedIndexChanged="Contactus_SelectedIndexChanged">
+               
+                <Picker.Items>
+                    <x:String>Email</x:String>
+                    <x:String>Phone</x:String>
+                    <x:String>Fax</x:String>
+                </Picker.Items>
+                -->
+            </Picker>
+            <Label x:Name="labelName" FontSize="40" FontAttributes="Bold"
+                   HorizontalOptions="Center"></Label>
+            <Image x:Name="imgurl" HeightRequest="100" WidthRequest="100"></Image>
+            <Label x:Name="lblDescription" FontSize="20" FontAttributes="Italic"></Label>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

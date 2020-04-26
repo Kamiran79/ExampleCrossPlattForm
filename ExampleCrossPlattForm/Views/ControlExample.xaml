@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ExampleCrossPlattForm.Views.ControlExample">
+
+    <!-- { CITC-2376-MOBILE APPLICATION DEVELOPMENT } -->
+    <!-- This program in class lab for student: KAMIRAN IBRAHIM -->
+    <!-- STUDENT A# A00417993 -->
+    <!-- SPRING 2020 SEMESTER -->
+    <!-- ControlExample.xaml for Entry, Editor, Stepper, and Switch On ClassRoom -->
+
+    <ContentPage.Content>
+        <StackLayout  Padding="20" BackgroundColor="Orange">
+            <Entry x:Name="etryname" Placeholder="Enter the Name"
+                   Completed="etryname_Completed">
+
+            </Entry>
+            <Entry x:Name="etrypwd" Placeholder ="Enter Password" IsPassword="True" TextChanged="Entry_TextChanged"/>
+            <Entry Placeholder="Phone Number" Keyboard="Numeric" MaxLength="10"/>
+
+            <Label x:Name="lblname" BackgroundColor="LightPink"/>
+            <Label x:Name="lblpwd" BackgroundColor="LightBlue"/>
+            <Editor Placeholder="Enter Text" BackgroundColor="LightGreen"
+                    VerticalOptions="FillAndExpand"></Editor>
+
+            <!--You can input multiple lines using editor =, it also has same Events and Properties of the Entry-->
+            <!-- Editor Will Fill its contrainer if you vertical options to fill and expand-->
+
+            <StackLayout Orientation="Vertical">
+                <Label x:Name="lblswi" Text="Show/Hide the Content"
+                       FontSize="20"></Label>
+                <Switch x:Name="swi" IsToggled="False"></Switch>
+                <!--Switch has one event handler is called Toggled-->
+ 
+
+
+            </StackLayout>
+            <StackLayout>
+                <Label x:Name="lblDisply" IsVisible="{Binding Source={x:Reference swi}, Path=IsToggled}"
+                       Text="I can be invisisble"></Label>
+                <Stepper x:Name="stp" Increment="10" Minimum="0" Maximum="250"></Stepper>
+                <!--Stepper has a event called ValueChanged-->
+                <Label Text="{Binding Source={x:Reference stp}, Path=Value, StringFormat='Stepped Value Is={0}'}"></Label>
+                </StackLayout>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
